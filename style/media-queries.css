@@ -55,6 +55,14 @@
     .client-feedback__slider .slick-prev{
         bottom: 40px !important;
     }
+    .services-slider .slick-next {
+        bottom: 8rem;
+        right: 17rem;
+    }
+    .services-slider .slick-prev {
+        bottom: 8rem;
+        left: 6rem;
+    }
 }
 
 @media screen and (max-width: 568px){
