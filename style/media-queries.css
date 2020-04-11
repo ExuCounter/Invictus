@@ -191,7 +191,7 @@
         max-height: 350px;
     }
     .client-feedback__slider .slick-next{
-        right: 30px;
+        right: 48px;
     }
     .client-feedback__slider .slick-prev{
         left: -2em;
@@ -316,6 +316,9 @@
     section{
         padding: 6rem 0rem 4rem 0rem;
     }
+    .masonry-gallery__col img{
+        max-height: 250px;
+    }
 }
 
 /* MEDIA QUERIES FOR 300PX BETWEEN 340PX */
@@ -397,6 +400,22 @@
     .subscribe__banner{
         margin: 7em 0em 0em 0em;
     }
+    .masonry-gallery__title{
+        order:1;
+        padding-top: 0.5em;
+    }
+    .masonry-gallery__description{
+        order: 2;
+        padding-bottom: 2em;
+    }
+    .slick-arrow{
+        background-size: 2em 1.6em;
+        width: 4.4em;
+        height: 3em;
+    }
+    .services-slider .slick-next{
+        right: 12rem;
+    }
 }
 
 @media screen and (max-width: 568px){
@@ -412,5 +431,10 @@
     }
     .contact-us__info-col > a{
         margin-bottom: 2em;
+    }
+    .slick-next:before, .slick-prev:before{
+        background-size: 1.4em 1em !important;
+        width: 3.8em !important;
+        height: 2.6em !important;
     }
 }

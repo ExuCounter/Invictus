@@ -100,7 +100,15 @@
 }
 
 .services-slider .slick-next:before{
-    content: url('../img/right.svg');
+    content: '';
+    background-position: top left;
+    background-image: url('../img/right.svg');
+    background-repeat: no-repeat;
+    background-size: 2.6em 2.2em;
+    display: block;
+    width: 5em;
+    height: 3.6em;
+    z-index: 1;
 }
 
 .services-slider .slick-next{
@@ -112,7 +120,15 @@
 
 
 .services-slider .slick-prev:before{
-    content: url('../img/left.svg');
+    content: '';
+    background-position: top left;
+    background-image: url('../img/left.svg');
+    background-repeat: no-repeat;
+    background-size: 2.6em 2.2em;
+    display: block;
+    width: 5em;
+    height: 3.6em;
+    z-index: 1;
 }
 
 .services-slider .slick-prev{
@@ -438,11 +454,6 @@
 }
 
 
-.client-feedback__slider .slick-next:before{
-    content: url('../img/right.svg');
-    width: 5em;
-}
-
 .client-feedback__slider .slick-next{
     top: unset;
     left: unset;
@@ -452,8 +463,15 @@
 
 
 .client-feedback__slider .slick-prev:before{
-    content: url('../img/left.svg');
+    content: '';
+    background-position: top left;
+    background-image: url('../img/left.svg');
+    background-repeat: no-repeat;
+    background-size: 2.6em 2.2em;
+    display: block;
     width: 5em;
+    height: 3.6em;
+    z-index: 1;
 }
 
 .client-feedback__slider .slick-prev{
@@ -465,7 +483,15 @@
 }
 
 .client-feedback__slider .slick-next:before{
-    content: url('../img/right-red.svg');
+    content: '';
+    background-position: top left;
+    background-image: url('../img/right-red.svg');
+    background-repeat: no-repeat;
+    background-size: 2.6em 2.2em;
+    display: block;
+    width: 5em;
+    height: 3.6em;
+    z-index: 1;
 }
 
 .client-feedback__slider .slick-next{
@@ -473,8 +499,4 @@
     left: unset;
     bottom: -8.5rem;
     right: -6.5rem;
-}
-
-.client-feedback__slider .slick-prev:before{
-    content: url('../img/left.svg');
 }
