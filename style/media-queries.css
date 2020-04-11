@@ -361,15 +361,41 @@
     }
 }
 
+@media screen and (min-width: 992px) and (max-width: 1080px){
+    .how-it-works__row-block p {
+        font-size: 2.3em;
+        margin: 2.72em 0em 1.05em 0.2em;
+    }
+}
+
 @media screen and (max-width: 992px){
     .section-title{
         font-size: 7em;
+    }
+    .how-it-works__row-block p {
+        font-size: 2.6em;
+        margin: 1.75em 0em 1.05em 0.2em;
+    }
+    .how-it-works__row-block__img-container:before{
+        bottom: 2.4em;
+    }
+    .how-it-works__row-block__img-container:after{
+        bottom: 2.4em;
+    }
+    .subscribe__title{
+        font-size: 7em;
+    }
+    .subscribe-btn{
+        font-size: 4.5em;
     }
 }
 
 @media screen and (max-width: 768px){
     .who-we-are__img-container{
         padding-bottom: 35rem;
+    }
+    .subscribe__banner{
+        margin: 7em 0em 0em 0em;
     }
 }
 
