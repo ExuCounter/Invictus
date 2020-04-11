@@ -240,6 +240,12 @@
     display: flex;
     justify-content: space-between;
     margin: 9.7em 0em;
+    flex-wrap: wrap;
+}
+
+.services__row div{
+    flex: 0 0 24%;
+    max-width: 24%;
 }
 
 .services__row div:nth-child(1){
@@ -503,3 +509,4 @@
     bottom: -8.5rem;
     right: -6.5rem;
 }
+
