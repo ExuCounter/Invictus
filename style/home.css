@@ -35,6 +35,15 @@
 
 /* MASONRY GALLERY */
 
+.masonry-gallery__col{
+    display: flex;
+    flex-direction: column;
+}
+
+.masonry-gallery__col img{
+    flex-grow: 1;
+}
+
 .masonry-gallery__title{
     font-size: 4.6em;
     font-family: 'Berlin Sans Bold', sans-serif;
@@ -43,16 +52,88 @@
 .masonry-gallery__description{
     font-size: 2.6em;
     line-height: 1.9em;
+    padding-bottom: 0.8em;
 }
 
-.masonry-gallery:nth-child(1) .masonry-gallery__title span{
+.masonry-gallery__col:nth-child(1) .masonry-gallery__title span{
     color: var(--main-red-color);
 }
 
-.masonry-gallery:nth-child(2) .masonry-gallery__title span{
+.masonry-gallery__col:nth-child(2) .masonry-gallery__title span{
     color: var(--main-yellow-color);
 }
 
-.masonry-gallery:nth-child(3) .masonry-gallery__title span{
+.masonry-gallery__col:nth-child(2) .masonry-gallery__title{
+    padding-top: 0.5em;
+}
+
+.masonry-gallery__col:nth-child(3) .masonry-gallery__title span{
     color: var(--main-blue-color);
+}
+
+/* IDS SERVICES */
+
+.services-slider{
+    display: flex;
+    justify-content: space-between;
+    margin: 9rem -2.5rem 0rem -3.5rem;
+}
+
+.services-slider__block-description{
+    color: var(--main-text-color);
+    font-size: 3.5rem;
+    text-align: center;
+    padding: 2.8rem;
+}
+
+.services-slider__block img{
+    max-width: 490px;
+}
+
+.services-slider__block{
+    outline: none;
+    cursor: pointer;
+}
+
+.slick-slide {
+    margin: 3.75rem ;
+}
+
+.slick-next:before{
+    content: url('../img/right.svg');
+}
+
+.slick-next{
+    top: unset;
+    left: unset;
+    bottom: -3rem;
+    right: 5rem;
+}
+
+
+.slick-prev:before{
+    content: url('../img/left.svg');
+}
+
+.slick-prev{
+    top: unset;
+    left: unset;
+    z-index: 999;
+    left: 5rem;
+    bottom: -3rem;
+    opacity: 0;
+}
+
+.slick-arrow{
+    transition: 0.3s;
+}
+
+.slick-arrow.active{
+    opacity: 1 !important;
+    cursor: pointer !important;
+}
+
+.slick-arrow.disabled{
+    cursor: default;
+    opacity: 0;
 }
