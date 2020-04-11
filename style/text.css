@@ -12,6 +12,6 @@
 .section-description{
     color: var(--main-text-color);
     font-size: 3em;
-    max-width: 150em;
+    max-width: 50em;
     padding-top: 1.133em;
 }
