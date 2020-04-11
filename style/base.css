@@ -1,0 +1,22 @@
+*, p{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.container{
+    max-width: 1640px;
+    margin: 0 auto;
+}
+
+section{
+    padding: 12rem 0rem;
+}
+
+body{
+    font-family: 'Berlin Sans Regular', sans-serif;
+    font-size: 100%;
+}

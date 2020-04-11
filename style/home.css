@@ -1,0 +1,58 @@
+/* WHO WE ARE SECTION */
+
+.who-we-are__img-container{
+    margin-top: 12rem;
+    position: relative;
+    padding-bottom: 47rem;
+}
+
+.who-we-are__img-container img{
+    position: absolute;
+    max-width: 47rem;
+    height: auto;
+    top: 0;
+}
+
+.who-we-are__img-container__block{
+    position: relative;
+}
+
+.who-we-are__img-container__block:nth-child(1){
+    left: 0;
+}
+
+.who-we-are__img-container__block:nth-child(2){
+    left: 25%;
+}
+
+.who-we-are__img-container__block:nth-child(3){
+    left: 50%;
+}
+
+.who-we-are__img-container__block:nth-child(4){
+    left: 75%;
+}
+
+/* MASONRY GALLERY */
+
+.masonry-gallery__title{
+    font-size: 4.6em;
+    font-family: 'Berlin Sans Bold', sans-serif;
+}
+
+.masonry-gallery__description{
+    font-size: 2.6em;
+    line-height: 1.9em;
+}
+
+.masonry-gallery:nth-child(1) .masonry-gallery__title span{
+    color: var(--main-red-color);
+}
+
+.masonry-gallery:nth-child(2) .masonry-gallery__title span{
+    color: var(--main-yellow-color);
+}
+
+.masonry-gallery:nth-child(3) .masonry-gallery__title span{
+    color: var(--main-blue-color);
+}
