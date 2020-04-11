@@ -1,6 +1,6 @@
 @media screen and (min-width: 1720px) and (max-width: 1920px){
     html{
-        font-size: 57.5%;
+        font-size: 60.5%;
     }
 
 }
@@ -40,7 +40,7 @@
 
 @media screen and (min-width: 1200px) and (max-width: 1440px){
     html{
-        font-size: 49.5%;
+        font-size: 53.5%;
     }
     .who-we-are__img-container img{
         max-width: 43em;
@@ -73,10 +73,10 @@
 
 @media screen and (min-width: 992px) and (max-width: 1200px){
     html{
-        font-size: 37.5%;
+        font-size: 45.5%;
     }
     .who-we-are__img-container img{
-        max-width: 43em;
+        max-width: 40em;
     }
     .who-we-are__img-container img:nth-child(1){
         left: 0;
@@ -111,16 +111,19 @@
     .how-it-works__row-block__img-container:before{
         left: 1.5em;
     }
+    section{
+        padding: 7rem 0rem 5rem 0rem;
+    }
 }
 
 /* MEDIA QUERIES FOR 768PX BETWEEN 992PX */
 
 @media screen and (min-width: 768px) and (max-width: 991px){
     html{
-        font-size: 33.5%;
+        font-size: 43.5%;
     }
     .who-we-are__img-container img{
-        max-width: 45em;
+        max-width: 35em;
     }
     .who-we-are__img-container img:nth-child(1){
         left: 0;
@@ -152,16 +155,22 @@
     .client-feedback__slider .slick-prev{
         left: -2em;
     }
+    section{
+        padding: 6rem 0rem 4rem 0rem;
+    }
+    .who-we-are__img-container {
+        padding-bottom: 35rem !important;
+    }
 }
 
 /* MEDIA QUERIES FOR 578PX BETWEEN 768PX */
 
 @media screen and (min-width: 578px) and (max-width: 768px){
     html{
-        font-size: 30.5%;
+        font-size: 36.5%;
     }
     .who-we-are__img-container img{
-        max-width: 36em;
+        max-width: 31em;
     }
     .who-we-are__img-container img:nth-child(1){
         left: 0;
@@ -187,16 +196,19 @@
     .client-feedback__slider .slick-prev{
         left: -2em;
     }
+    section{
+        padding: 7rem 0rem 4rem 0rem;
+    }
 }
 
 /* MEDIA QUERIES FOR 420PX BETWEEN 578PX */
 
 @media screen and (min-width: 420px) and (max-width: 578px){
     html{
-        font-size: 23.5%;
+        font-size: 30.5%;
     }
     .who-we-are__img-container img{
-        max-width: 34em;
+        max-width: 26em;
     }
     .who-we-are__img-container img:nth-child(1){
         left: 0;
@@ -222,16 +234,22 @@
     .client-feedback__slider .slick-prev{
         left: -2em;
     }
+    section{
+        padding: 6rem 0rem 4rem 0rem;
+    }
+    .who-we-are__img-container {
+        padding-bottom: 30rem !important;
+    }
 }
 
 /* MEDIA QUERIES FOR 375PX BETWEEN 420PX */
 
 @media screen and (min-width: 375px) and (max-width: 420px){
     html{
-        font-size: 23.5%;
+        font-size: 29.5%;
     }
     .who-we-are__img-container img{
-        max-width: 26em;
+        max-width: 23em;
     }
     .who-we-are__img-container img:nth-child(1){
         left: 0;
@@ -257,13 +275,19 @@
     .client-feedback__slider .slick-prev{
         left: -2em;
     }
+    section{
+        padding: 6rem 0rem 4rem 0rem;
+    }
+    .who-we-are__img-container {
+        padding-bottom: 30rem !important;
+    }
 }
 
 /* MEDIA QUERIES FOR 340PX BETWEEN 375PX */
 
 @media screen and (min-width: 340px) and (max-width: 375px){
     html{
-        font-size: 17.5%;
+        font-size: 19.5%;
     }
     .who-we-are__img-container img{
         max-width: 30em;
@@ -289,16 +313,19 @@
     .client-feedback__slider .slick-prev{
         left: -2em;
     }
+    section{
+        padding: 6rem 0rem 4rem 0rem;
+    }
 }
 
 /* MEDIA QUERIES FOR 300PX BETWEEN 340PX */
 
 @media screen and (min-width: 300px) and (max-width: 340px){
     html{
-        font-size: 15.5%;
+        font-size: 21.5%;
     }
     .who-we-are__img-container img{
-        max-width: 29em;
+        max-width: 26em;
     }
     .who-we-are__img-container img:nth-child(1){
         left: 0;
@@ -326,10 +353,24 @@
         left: -2em;
         bottom: -40px;
     }
+    section{
+        padding: 6rem 0rem 8rem 0rem;
+    }
+    .who-we-are__img-container {
+        padding-bottom: 25rem !important;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .section-title{
+        font-size: 7em;
+    }
 }
 
 @media screen and (max-width: 768px){
-
+    .who-we-are__img-container{
+        padding-bottom: 35rem;
+    }
 }
 
 @media screen and (max-width: 568px){
