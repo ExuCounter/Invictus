@@ -76,7 +76,9 @@
 .services-slider{
     display: flex;
     justify-content: space-between;
-    margin: 9rem -2.5rem 0rem -3.5rem;
+    width: 100%;
+    overflow:hidden;
+    padding-bottom: 5em;
 }
 
 .services-slider__block-description{
@@ -93,6 +95,7 @@
 .services-slider__block{
     outline: none;
     cursor: pointer;
+    margin: 0px 3.5em;
 }
 
 .services-slider .slick-slide {
@@ -114,7 +117,7 @@
 .services-slider .slick-next{
     top: unset;
     left: unset;
-    bottom: -3rem;
+    bottom: 3rem;
     right: 7rem;
 }
 
@@ -136,7 +139,7 @@
     left: unset;
     z-index: 999;
     left: 5rem;
-    bottom: -3rem;
+    bottom: 3rem;
     opacity: 0;
 }
 

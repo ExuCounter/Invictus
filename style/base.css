@@ -12,6 +12,11 @@ html{
     margin: 0 auto;
 }
 
+.services__container{
+    max-width: 1680px;
+    margin: 0 auto;
+}
+
 section{
     padding: 12rem 0rem 9rem 0rem;
 }
