@@ -140,7 +140,6 @@
     z-index: 999;
     left: 5rem;
     bottom: 3rem;
-    opacity: 0;
 }
 
 .slick-arrow{
@@ -152,7 +151,7 @@
     cursor: pointer !important;
 }
 
-.slick-arrow.disabled{
+.slick-disabled{
     cursor: default;
     opacity: 0;
 }
