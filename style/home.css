@@ -95,15 +95,15 @@
     cursor: pointer;
 }
 
-.slick-slide {
+.services-slider .slick-slide {
     margin: 3.75rem ;
 }
 
-.slick-next:before{
+.services-slider .slick-next:before{
     content: url('../img/right.svg');
 }
 
-.slick-next{
+.services-slider .slick-next{
     top: unset;
     left: unset;
     bottom: -3rem;
@@ -111,11 +111,11 @@
 }
 
 
-.slick-prev:before{
+.services-slider .slick-prev:before{
     content: url('../img/left.svg');
 }
 
-.slick-prev{
+.services-slider .slick-prev{
     top: unset;
     left: unset;
     z-index: 999;
@@ -356,4 +356,114 @@
 .how-it-works__row-block p{
     font-size: 2.5em;
     margin: 2.28em 0em 1.05em 0.2em;
+}
+
+/* CLIENTS FEEDBACK */
+
+.clients-feedback__decoration-img{
+    display: block;
+    margin: 0 auto;
+    padding: 6.5em 0em 3.5em 0em;
+}
+
+.client-feedback__slider{
+    max-width: 910px;
+    margin: 0 auto;
+    display: block;
+}
+
+.client-feedback__slider-block{
+    outline: none;
+    cursor: pointer;
+}
+
+.client-feedback__slider-block__description{
+    padding: 1.56em 0em 0.56em 2em;
+    font-size: 3em;
+    line-height: 1.33em;
+    color: var(--main-text-color);
+
+}
+
+.client-feedback__slider-block__user{
+    display: flex;
+    padding-top: 4em;
+    justify-content: flex-end;
+}
+
+.client-feedback__slider-block__user-info{
+    padding-left: 2.4em;
+}
+
+.client-feedback__slider-block__user-info__name{
+    font-size: 2.9em;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+.client-feedback__slider-block__user-info__specialty{
+    font-style: italic;
+    font-size: 2.4em;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+
+.client-feedback__slider-block__user-info__company{
+    font-size: 2.4em;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    color: var(--main-blue-color);
+}
+
+.quotes_rotate{
+    transform: rotate(180deg);
+}
+
+.quotes_normal{
+    display: flex;
+    margin-left: auto;
+}
+
+.client-feedback__slider{
+    outline: none;
+}
+
+
+.client-feedback__slider .slick-next:before{
+    content: url('../img/right.svg');
+}
+
+.client-feedback__slider .slick-next{
+    top: unset;
+    left: unset;
+    bottom: -10rem;
+    right: 5rem;
+}
+
+
+.client-feedback__slider .slick-prev:before{
+    content: url('../img/left.svg');
+}
+
+.client-feedback__slider .slick-prev{
+    top: unset;
+    left: unset;
+    z-index: 999;
+    left: -15rem;
+    bottom: -8.5rem;
+}
+
+.client-feedback__slider .slick-next:before{
+    content: url('../img/right-red.svg');
+}
+
+.client-feedback__slider .slick-next{
+    top: unset;
+    left: unset;
+    bottom: -8.5rem;
+    right: -6.5rem;
+}
+
+.client-feedback__slider .slick-prev:before{
+    content: url('../img/left.svg');
 }

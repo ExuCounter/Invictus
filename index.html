@@ -16,8 +16,10 @@
     <link rel="stylesheet" href="style/text.css">
     <link rel="stylesheet" href="style/base.css">
     <link rel="stylesheet" href="style/home.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/inputs.css">
     <!-- GOOGLE FONTS -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -358,12 +360,12 @@
     <section class="clients-feedback">
         <div class="container">
             <h1 class="section-title" id="clients-feedback">
-                Clients feedback
+                <span>Clients</span> feedback
             </h1>
-            <img src="img/group-77.svg" alt='decoration'>
+            <img src="img/group-77.svg" alt='decoration' class="clients-feedback__decoration-img">
             <div class="client-feedback__slider">
                 <div class="client-feedback__slider-block">
-                    <img src="img/close.svg" alt="quotes image" class="quotes_normal">
+                    <img src="img/close.svg" alt="quotes image" class="quotes_rotate">
                     <div class="client-feedback__slider-block__description">
                         Lorem Ipsum is simply dummy text of the printing and typesetting 
                         industry. Lorem Ipsum has been the industry's standard dummy text
@@ -372,7 +374,33 @@
                         only five centuries, but also the leap into electronic typesetting, 
                         remaining essentially unchanged.
                     </div>
+                    <img src="img/close.svg" alt="quotes image" class="quotes_normal d-flex">
+                    <div class="client-feedback__slider-block__user">
+                        <img src="img/foto-sushi-6-anudmp-i-lw-4-unsplash.png" alt="User photo">
+                        <div class="client-feedback__slider-block__user-info">
+                            <div class="client-feedback__slider-block__user-info__name">
+                                Mark G.Smith
+                            </div>
+                            <div class="client-feedback__slider-block__user-info__specialty">
+                                Digital Marketing Manager 
+                            </div>
+                            <div class="client-feedback__slider-block__user-info__company">
+                                The Local Data Company
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="client-feedback__slider-block">
                     <img src="img/close.svg" alt="quotes image" class="quotes_rotate">
+                    <div class="client-feedback__slider-block__description">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting 
+                        industry. Lorem Ipsum has been the industry's standard dummy text
+                        ever since the 1500s, when an unknown printer took a galley of type
+                        and scrambled it to make a type specimen book. It has survived not 
+                        only five centuries, but also the leap into electronic typesetting, 
+                        remaining essentially unchanged.
+                    </div>
+                    <img src="img/close.svg" alt="quotes image" class="quotes_normal d-flex">
                     <div class="client-feedback__slider-block__user">
                         <img src="img/foto-sushi-6-anudmp-i-lw-4-unsplash.png" alt="User photo">
                         <div class="client-feedback__slider-block__user-info">
@@ -397,9 +425,9 @@
     <footer class="footer contact-us">
         <div class="container">
             <div class="row">
-                <div class="col-6">
+                <div class="col-6 contact-us__form-col">
                     <h1 class="section-title" id='contact-us'>
-                        Contact Us
+                        Contact <span>Us</span>
                     </h1>
                     <p class="section-description">
                         We respond to emails, phone calls and give
@@ -420,7 +448,7 @@
                         </label>
                         <label>
                             Message
-                            <textarea name="message" rows="10" required></textarea>
+                            <textarea name="message" rows="6" required></textarea>
                         </label>
                         <button class="contact-us-btn">
                             Contact us
@@ -430,20 +458,20 @@
                         Copy Rights TWINSOFT 2020, All Rights Reserved
                     </p>
                 </div>
-                <div class="col-6">
+                <div class="col-6 contact-us__info-col">
                     <a class="contact-us__block" href='tel:+96789095432'>
                         <img src="img/phone-call.svg" alt="Contact Us Phone Number">
-                        <p>Mobile Number</p>
+                        <p class='pt-4'>Mobile Number</p>
                         <p>+96789095432</p>
                     </a>
                     <a class="contact-us__block" href='mailto:invictus@gmail.com'>
-                        <img src="img/phone-call.svg" alt="Contact Us Email">
-                        <p>Email Address</p>
+                        <img src="img/group-74.svg" alt="Contact Us Email">
+                        <p class='pt-4'>Email Address</p>
                         <p>invictus@gmail.com</p>
                     </a>
                     <a class="contact-us__block" href='https://www.google.com/maps/search/Box+No.4325+El-Sheikh+Mohammed+bin+Rashid-Dubai+UAE/@25.0750853,54.947555,10z/data=!3m1!4b1'>
-                        <img src="img/phone-call.svg" alt="Contact Us Map">
-                        <p>Address</p>
+                        <img src="img/group-75.svg" alt="Contact Us Map">
+                        <p class='pt-4'>Address</p>
                         <p>Box No.4325 El-Sheikh Mohamed<br>
                             ben Rashid-Dubai UAE</p>
                     </a>

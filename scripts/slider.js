@@ -4,6 +4,13 @@ $('.services-slider').slick({
     infinite: false
 });
 
+$('.client-feedback__slider').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    infinite: true
+});
+
+
 let rightArrowServicesSlider = document.querySelector('.services-slider .slick-next');
 let leftArrowServicesSlider = document.querySelector('.services-slider .slick-prev');
 

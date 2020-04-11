@@ -1,0 +1,54 @@
+.footer{
+    margin: 15em 0em 1em 0em;
+}
+
+.contact-us-btn{
+    font-size: 3em;
+    background-color: var(--main-red-color);
+    color: #FFF;
+    border: solid 0.2em transparent;
+    border-radius: 0.15em;
+    width: 100%;
+    padding: 0.8em 0em;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.privacy-policy__paragraph{
+    text-align: center;
+    font-size: 1.6em;
+    color: #2a2a2a;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.contact-us__info-col{
+    background-image: url('../img/Group-76.jpg');
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20em 0em 17.5em 0em;
+
+}
+
+.contact-us__info-col a{
+    color: #FFF;
+    font-size: 2.5em;
+    line-height: 1.35em;
+    font-weight: 400;
+    
+}
+
+
+.contact-us__info-col img{
+    margin: 0 auto;
+}
+
+.contact-us__form-col{
+    padding-right: 5.2em;
+}
