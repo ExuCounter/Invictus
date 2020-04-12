@@ -105,10 +105,14 @@
         justify-content: space-between;
     }
     .services__row div{
-        flex: 0 0 49%;
-        max-width: 49%;
+        flex: 0 0 48.5%;
+        margin-bottom: 1em;
+        max-width: 48.5%;
         padding-left: 2em !important;
         margin-right: 0;
+    }
+    .services__row div:nth-child(1){
+        padding-left: 0 !important;
     }
     .top-bar__row-col__nav.active{
         transform: translate(0vw);
@@ -143,6 +147,22 @@
     .top-bar__row-col__nav ul li a{
         font-size: 4em;
     }
+    .top-bar{
+        font-size: 125%;
+    }
+    .subscribe{
+        font-size: 75%;
+    }
+    .subscribe__title{
+        padding-bottom: 1em;
+    }
+    .subscribe__banner{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .big-letters__row-block{
+        margin-bottom: 2em;
+    }
 }
 
 /* MEDIA SCREEN LESS THAN 578 PX ! DOESN`T CHANGE IN BELOW QUERIES */
@@ -150,6 +170,12 @@
 @media screen and (max-width: 578px){
     .contact-us__form-col{
         order: 2;
+    }
+    .subscribe{
+        font-size: 85%;
+    }
+    .subscribe__title {
+        font-size: 6em;
     }
     .contact-us__form-col{
         padding-top: 4em;
@@ -194,6 +220,17 @@
     }
     .top-bar__row{
         padding-top: 2.5em;
+    }
+    .subscribe__banner{
+        width: 90%;
+    }
+}
+
+/* MEDIA SCREEN LESS THAN 420 PX ! DOESN`T CHANGE */
+
+@media screen and (max-width: 420px){
+    .subscribe__banner{
+        width: 100%;
     }
 }
 

@@ -198,6 +198,13 @@
     border-radius: 0.6rem;
 }
 
+.subscribe__banner img{
+    max-width: 18em;
+    height: auto;
+}
+
+/* WHAT IDS DO */
+
 .big-letters__row{
     margin-top: 13em;
     display: flex;
