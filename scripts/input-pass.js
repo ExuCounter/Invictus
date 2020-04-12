@@ -1,15 +1,19 @@
-let passwordInput = document.querySelector(".password-input");
-let eyeButton = document.querySelector(".password-input__security-btn");
+let passwordInputs = document.querySelectorAll(".password-input");
+let eyeButtons = document.querySelectorAll(".password-input__security-btn");
  
-eyeButton.addEventListener('click', ()=>{
-  if(passwordInput.getAttribute('type') == 'password') {
-    passwordInput.removeAttribute('type');
-    passwordInput.setAttribute('type', 'text');
-    eyeButton.innerHTML='Hide';
-
-   } else {
-    passwordInput.removeAttribute('type');
-    passwordInput.setAttribute('type', 'password');
-    eyeButton.innerHTML='Show';
-   }
+eyeButtons.forEach((button)=>{
+  button.addEventListener('click', (e)=>{
+    if(button.closest('label').querySelector('.password-input').getAttribute('type') == 'password') {
+      button.closest('label').querySelector('.password-input').removeAttribute('type');
+      button.closest('label').querySelector('.password-input').setAttribute('type', 'text');
+      button.innerHTML='Hide';
+      return false;
+  
+      }
+      else if(button.closest('label').querySelector('.password-input') != 'password'){
+        button.closest('label').querySelector('.password-input').removeAttribute('type');
+        button.closest('label').querySelector('.password-input').setAttribute('type', 'password');
+        button.innerHTML='Show';
+      }
+  });
 });

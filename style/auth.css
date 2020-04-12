@@ -11,6 +11,7 @@
 }
 
 .auth form label{
+    font-family: 'Roboto', sans-serif;
     font-size: 1.44em;
 }
 
@@ -127,4 +128,132 @@
     font-family: 'Roboto', sans-serif;
     text-align: center;
     padding: 6.875em 0em 1.25em 0em;
+}
+
+.sign-up-main h1 span{
+    color: var(--main-red-color);
+}
+
+.sign-up-main .auth-copyright{
+    text-align: left;
+    padding-top: 5em;
+}
+
+.sign-up-main h1{
+    padding-right: 0.8em;
+}
+
+.sign-up-main .save-btn{
+    font-size: 2.5em;
+    border: none;
+    background-color: var(--main-red-color);
+    color: #FFF;
+    width: 100%;
+    padding: 1.2em 0em;
+    text-transform: uppercase;
+    transition: 0.1s ease-in-out;
+    border-radius: 0.5em;
+    margin-top: 12em;
+    font-family: "Roboto", sans-serif;
+}
+
+.sign-up-main .save-btn:hover{
+    background-color: #FFF;
+    color: var(--main-red-color);
+}
+
+.sign-up__start-section__plan{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+
+.sign-up__start-section__plan-block{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    cursor: pointer;
+}
+
+.sign-up__start-section__plan-block img{
+    max-height: 134px;
+    width: auto;
+    margin: 4em 7em;
+}
+
+.sign-up__start-section__plan-block:nth-child(2) img{
+    margin: 4em 5em;
+}
+
+.sign-up__section-label{
+    font-size: 2.5em;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    color: var(--main-text-color);
+    margin-bottom: 1.52em;
+}
+
+.sign-up__start-section__plan-block p{
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 1em;
+
+}
+
+.sign-up__start-section__plan-block.active > div:after{
+    display: block;
+}
+
+.sign-up__start-section__plan-block.active > div{
+    background-color: #258373;
+    border-radius: 1em;
+    position: relative;
+}
+
+.sign-up__start-section__plan-block > div:after{
+    content: '';
+    background-image: url('../img/check.svg');
+    display: none;
+    width: 3.9em;
+    height: 3.9em;
+    background-size: 3.9em 3.9em;
+    top: 1.8em;
+    right: 1.8em;
+    position: absolute;
+}
+
+.sign-up__individual-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up-main label{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.1em !important;
+}
+
+.sign-up__individual-section .splited-col{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.sign-up__individual-section .splited-col label{
+    margin-top: 0;
+    width: 49%;
+}
+
+.sign-up__individual-section .splited-col-1-5 .custom-theme-select{
+    width: 20%;
+    margin-top: 1em;
+}
+
+.sign-up__individual-section .splited-col-1-5 label{
+    margin-top: 1em;
+    width: 79%;
+}
+
+.sign-up__individual-section .save-btn{
+    margin-top: 1em;
 }
