@@ -148,7 +148,7 @@
         font-size: 4em;
     }
     .top-bar{
-        font-size: 145%;
+        font-size: 155%;
     }
     .subscribe{
         font-size: 75%;
@@ -638,9 +638,11 @@
     }
     .how-it-works__row-block__img-container:after{
         left: 1.9em;
+        bottom: 1.8em;
     }
     .how-it-works__row-block__img-container:before{
         left: 2.35em;
+        bottom: 1.75em;
     }
     .home-page .header-title{
         font-size: 4.8em;
