@@ -12,5 +12,6 @@ form label{
     flex-direction: column;
     font-size: 2em;
     margin-top: 1.5em;
+    position: relative;
     font-family: 'Berlin Sans Regular', sans-serif;
 }

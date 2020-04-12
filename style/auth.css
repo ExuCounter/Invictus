@@ -1,0 +1,130 @@
+.auth .burger-menu span:before, .auth .burger-menu span:after, .auth .burger-menu span{
+    background-color: #000;
+}
+
+.auth .container{
+    max-width: 1667px;
+}
+
+.auth .sign-in-btn{
+    color: var(--main-red-color);
+}
+
+.auth form label{
+    font-size: 1.44em;
+}
+
+.auth form label:first-child{
+    margin-top: 0;
+}
+
+.top-bar__row ul li a{
+    color: var(--main-text-color);
+}
+
+.auth main{
+    padding: 12em 0em 0em;
+}
+
+.auth-main__row__left-col{
+    display: flex;
+    align-items: flex-start;
+}
+
+.auth-main__row__left-col h1{
+    font-size: 11.8em;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    line-height: 1.44em; 
+    padding-right: 2em;
+}
+
+.auth-main__row__left-col h1 .ids{
+    color: var(--main-red-color);
+}
+
+.auth-main__row__left-col h1 .club{
+    color: var(--main-green-color);
+}
+
+.auth-main__row__left-col img{
+    max-width: 41em;
+}
+
+.password-input__security-btn{
+    position: absolute;
+    right: 0.95em;
+    top: 3.65em;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    cursor: pointer;
+}
+
+.auth-main__row__right-col .sign-in-btn{
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--main-red-color);
+    color: #FFF;
+    border: solid 0.2em transparent;
+    border-radius: 0.15em;
+    width: 100%;
+    padding: 0.8em 0em !important;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.auth-main__row__right-col .sign-up-btn{
+    font-size: 2.75em;
+    font-family: 'Roboto', sans-serif;
+    background-color: transparent;
+    color: var(--main-red-color);
+    border: solid 0.2em transparent;
+    border-radius: 0.15em;
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 0.8em 0em;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 0.5em;
+    text-decoration: none;
+    margin-bottom: 2em;
+}
+
+.auth-main__row__right-col .forget-password{
+    font-size: 1.8em;
+    font-family: 'Roboto', sans-serif;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: center;
+}
+
+.auth-main__row__right-col .forget-password:hover{
+    color: var(--main-red-color);
+}
+
+.different-auth span{
+    font-size: 2em;
+    display:block;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 3.5em;
+}
+
+.sign-in-btn:hover{
+    color: var(--main-red-color);
+    background-color:transparent;
+}
+
+.auth-copyright{
+    font-size: 1.6em;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 6.875em 0em 1.25em 0em;
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invictus - Home Page</title>
+    <!-- BOOTSTRAP STYLES-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- SLICK SLIDER-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <!-- CUSTOM STYLES-->
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/fonts.css">
+    <link rel="stylesheet" href="style/variables.css">
+    <link rel="stylesheet" href="style/text.css">
+    <link rel="stylesheet" href="style/base.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/top-bar.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/inputs.css">
+    <link rel="stylesheet" href="style/burger-menu.css">
+    <link rel="stylesheet" href="style/auth.css">
+    <link rel="stylesheet" href="style/media-queries.css">
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class='auth'>
+
+    <!-- HEADER -->
+    <header class="header" id='home'>
+        <div class="container">
+            <div class="top-bar">
+                <div class="row top-bar__row">
+                    <div class="col-lg-3 col-md-2 col-6 pl-5 top-bar__row-col__logo">
+                        <a href="index.html"><img src="img/logo.svg" alt="Logo"></a>
+                    </div>
+                    <nav class="col-lg-6 col-md-8 col-12 top-bar__row-col__nav">
+                        <ul>
+                            <li>
+                                <a href="index.html#home">Home</a>
+                            </li>
+                            <li>
+                                <a href="index.html#who-we-are">About us</a>
+                            </li>
+                            <li>
+                                <a href="index.html#masonry-gallery">What we do</a>
+                            </li>
+                            <li>
+                                <a href="index.html#services">Services</a>
+                            </li>
+                            <li>
+                                <a href="index.html#how-it-works">How it works</a>
+                            </li>
+                            <li>
+                                <a href="index.html#clients-feedback">Clients</a>
+                            </li>
+                            <li>
+                                <a href="index.html#contact-us">Contact us</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="col-lg-3 col-md-2 col-4 pr-5 top-bar__row-col__auth">
+                        <a href='sign-in.html' class="sign-in-btn">
+                            Sign In
+                        </a>
+                    </div>
+                </div>
+                <button class="burger-menu">
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- AUTH MAIN -->
+
+    <main class='auth-main'>
+        <div class="container">
+            <div class="auth-main__row row">
+                <div class="auth-main__row__left-col col-sm-7 col-12">
+                    <img src="img/sign-in.svg" alt="Decoration">
+                    <h1>Welcome, Sign in to join <span class='ids'>IDS</span> <span class='club'>club</span></h1>
+                </div>
+                <div class="auth-main__row__right-col col-sm-5 col-12">
+                    <form action="#">
+                        <label>
+                            <label>
+                                Email Address
+                                <input type="email" name='email' required>
+                            </label>
+                            <label>
+                                Password
+                                <input type="password" class='password-input' name='password' required>
+                                <p class='password-input__security-btn'>Show</p>
+                            </label>
+                            <button class="sign-in-btn main-btn">
+                                Sign in
+                            </button>
+                            <button class='forget-password'>
+                                Forget password?
+                            </button>
+                        </label>
+                    </form>
+                    <div class="different-auth">
+                        <span>
+                            If you don't have an account, Please create an account below
+                        </span>
+                        <a href='sign-up.html' class="main-btn_transparent sign-up-btn">
+                            Sign Up
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <p class="auth-copyright">
+                Copy Rights TWINSOFT 2020, All Rights Reserved
+            </p>
+        </div>
+    </main>
+
+    <!-- SCRIPTS -->
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src='scripts/auth.js'></script>
+    <script src='scripts/menu.js'></script>
+    <script src='scripts/input-pass.js'></script>
+</body>
+</html>
