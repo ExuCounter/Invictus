@@ -1,0 +1,48 @@
+.top-bar__row-col__nav{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.top-bar__row-col__nav ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.top-bar__row-col__nav ul li{
+    list-style-type: none;
+    margin-top: 5px;
+}
+
+.top-bar__row-col__nav ul li a{
+    font-size: 2em;
+    color: var(--main-red-color);
+    font-family: "Roboto", sans-serif;
+}
+
+.top-bar__row{
+    display: flex;
+    align-items: center;
+    padding-top: 4em;
+}
+
+.top-bar__row-col__logo img{
+    max-width: 10em;
+}
+
+.top-bar__row-col__auth{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.top-bar__row-col__auth .sign-in-btn{
+    font-size: 3em;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    color: #248471;
+    background-color: transparent;
+    border: none;
+    text-transform: uppercase;
+}

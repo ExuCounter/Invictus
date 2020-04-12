@@ -1,5 +1,7 @@
 /* --- */
 
+/* MEDIA SCREEN LESS THAN 992 PX ! DOESN`T CHANGE IN BELOW QUERIES */
+
 @media screen and (max-width: 992px){
     .section-title{
         font-size: 7em;
@@ -46,6 +48,8 @@
         margin-right: 9.5px;
     }
 }
+
+/* MEDIA SCREEN LESS THAN 767 PX ! DOESN`T CHANGE IN BELOW QUERIES */
 
 @media screen and (max-width: 767px){
     .who-we-are__img-container{
@@ -106,7 +110,42 @@
         padding-left: 2em !important;
         margin-right: 0;
     }
+    .top-bar__row-col__nav.active{
+        transform: translate(0vw);
+    }
+    .burger-menu{
+        display: block;
+    }
+    .top-bar__row-col__nav{
+        background-color: #FFF;
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1000;
+        transition: 0.3s ease-in-out;
+        justify-content: flex-start;
+        padding: 20vh 0vh;
+        transform: translate(-120vw);
+        overflow-y: scroll;
+    }
+    .top-bar__row-col__nav ul{
+        flex-direction: column;
+        justify-content: flex-start;
+        height: 100%;
+    }
+    .top-bar__row-col__nav ul li{
+        margin-bottom: 3em;
+    }
+    .top-bar__row-col__nav ul li a{
+        font-size: 4em;
+    }
 }
+
+/* MEDIA SCREEN LESS THAN 578 PX ! DOESN`T CHANGE IN BELOW QUERIES */
 
 @media screen and (max-width: 578px){
     .contact-us__form-col{
@@ -142,7 +181,23 @@
     .how-it-works__row-block__img-container:before{
         bottom: 1.9em;
     }
+    .header-benefits{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .header-benefits__block{
+        padding-bottom: 4em;
+    }
+    .home-page .header{
+        padding-bottom: 8em;
+    }
+    .top-bar__row{
+        padding-top: 2.5em;
+    }
 }
+
+/* MEDIA SCREEN LESS THAN 1030 PX ! CUSTOM STYLING */
 
 @media screen and (max-width: 1030px){
     .client-feedback__slider{ 
@@ -161,16 +216,26 @@
 
 /* --- */
 
+/* MEDIA QUERIES FOR 1720PX BETWEEN 1920PX */
+
 @media screen and (min-width: 1720px) and (max-width: 1920px){
     html{
         font-size: 60.5%;
     }
+    .home-page .header-title{
+        font-size: 9.4em;
+    }
 
 }
+
+/* MEDIA QUERIES FOR 1440PX BETWEEN 1720PX */
 
 @media screen and (min-width: 1440px) and (max-width: 1720px){
     html{
         font-size: 54.5%;
+    }
+    .who-we-are{
+        padding-left: 2em;
     }
     .who-we-are__img-container img{
         max-width: 41em;
@@ -195,6 +260,9 @@
     }
     .masonry-gallery__description {
         font-size: 2.35em;
+    }
+    .home-page .header-title{
+        font-size: 8.5em;
     }
 
 }
@@ -231,6 +299,9 @@
     }
     .how-it-works__row-block p{
         font-size: 2.3em;
+    }
+    .home-page .header-title{
+        font-size: 8em;
     }
 
 }
@@ -280,6 +351,9 @@
     section{
         padding: 7rem 0rem 5rem 0rem;
     }
+    .home-page .header-title{
+        font-size: 7.8em;
+    }
 }
 
 /* MEDIA QUERIES FOR 768PX BETWEEN 992PX */
@@ -327,6 +401,12 @@
     .who-we-are__img-container {
         padding-bottom: 35rem !important;
     }
+    .home-page .header-title{
+        font-size: 7em;
+    }
+    .header-benefits__block{
+        padding: 0em 5em;
+    }
 }
 
 /* MEDIA QUERIES FOR 578PX BETWEEN 768PX */
@@ -364,6 +444,15 @@
     }
     section{
         padding: 7rem 0rem 4rem 0rem;
+    }
+    .home-page .header-title{
+        font-size: 6em;
+    }
+    .header-benefits__block{
+        padding: 0em 3em;
+    }
+    .burger-menu{
+        top: 7.95em;
     }
 }
 
@@ -405,6 +494,9 @@
     }
     .who-we-are__img-container {
         padding-bottom: 30rem !important;
+    }
+    .home-page .header-title{
+        font-size: 5em;
     }
 }
 
@@ -455,6 +547,9 @@
     }
     .how-it-works__row-block__img-container:before{
         bottom: 1.6em;
+    }
+    .home-page .header-title{
+        font-size: 5em;
     }
 }
 
@@ -509,6 +604,9 @@
     }
     .how-it-works__row-block__img-container:before{
         left: 2.35em;
+    }
+    .home-page .header-title{
+        font-size: 4.8em;
     }
 }
 
@@ -571,7 +669,12 @@
         left: 2.0em;
         bottom: 1.7em;
     }
+    .home-page .header-title{
+        font-size: 4.8em;
+    }
 }
+
+/* MEDIA QUERIES FOR 992PX BETWEEN 1080PX ! CUSTOM STYLING */
 
 @media screen and (min-width: 992px) and (max-width: 1080px){
     .how-it-works__row-block p {
@@ -579,6 +682,8 @@
         margin: 2.72em 0em 1.05em 0.2em;
     }
 }
+
+/* MEDIA QUERIES :ESS THAN 1040PX ! CUSTOM STYLING */
 
 @media screen and (max-width: 1040px){
     .big-letters__row-block p {

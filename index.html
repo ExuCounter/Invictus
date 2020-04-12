@@ -16,58 +16,91 @@
     <link rel="stylesheet" href="style/text.css">
     <link rel="stylesheet" href="style/base.css">
     <link rel="stylesheet" href="style/home.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/top-bar.css">
     <link rel="stylesheet" href="style/footer.css">
     <link rel="stylesheet" href="style/inputs.css">
+    <link rel="stylesheet" href="style/burger-menu.css">
     <link rel="stylesheet" href="style/media-queries.css">
     <!-- GOOGLE FONTS -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300;1,400&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="home-page">
 
     <!-- HEADER -->
-    <!-- <header class="header" id='home'>
+    <header class="header" id='home'>
         <div class="container">
             <div class="top-bar">
                 <div class="row top-bar__row">
-                    <div class="col-3">
-                        <img src="img/logo.svg" alt="Logo">
+                    <div class="col-lg-3 col-md-2 col-8 pl-5 top-bar__row-col__logo">
+                        <a href="index.html"><img src="img/logo-white.svg" alt="Logo"></a>
                     </div>
-                    <div class="col-6">
-                        <nav>
-                            <ul>
-                                <li>
-                                    <a href="#home">Home</a>
-                                </li>
-                                <li>
-                                    <a href="#who-we-are">About us</a>
-                                </li>
-                                <li>
-                                    <a href="#masonry-gallery">What we do</a>
-                                </li>
-                                <li>
-                                    <a href="#services">Services</a>
-                                </li>
-                                <li>
-                                    <a href="#how-it-works">How it works</a>
-                                </li>
-                                <li>
-                                    <a href="#clients-feedback">Clients</a>
-                                </li>
-                                <li>
-                                    <a href="#contact-us">Contact us</a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                    <div class="col-3">
+                    <nav class="col-lg-6 col-md-8 col-12 top-bar__row-col__nav">
+                        <ul>
+                            <li>
+                                <a href="#home">Home</a>
+                            </li>
+                            <li>
+                                <a href="#who-we-are">About us</a>
+                            </li>
+                            <li>
+                                <a href="#masonry-gallery">What we do</a>
+                            </li>
+                            <li>
+                                <a href="#services">Services</a>
+                            </li>
+                            <li>
+                                <a href="#how-it-works">How it works</a>
+                            </li>
+                            <li>
+                                <a href="#clients-feedback">Clients</a>
+                            </li>
+                            <li>
+                                <a href="#contact-us">Contact us</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="col-lg-3 col-md-2 col-3 pr-5 top-bar__row-col__auth">
                         <button class="sign-in-btn">
                             Sign In
                         </button>
                     </div>
                 </div>
+                <button class="burger-menu">
+                    <span></span>
+                </button>
+            </div>
+            <h1 class="header-title">
+                Invictus is engineering with care
+            </h1>
+            <div class="header-benefits">
+                <div class="header-benefits__block">
+                    <img src="img/header-1.svg" alt="Health Care Image">
+                    <span>Health Care</span>
+                    <p>
+                        Indoor Air Quality Matters in<br>
+                        Air Conditioning & Ventilation
+                    </p>
+                </div>
+                <div class="header-benefits__block">
+                    <img src="img/header-2.svg" alt="Wealth Care Image">
+                    <span>Health Care</span>
+                    <p>
+                        Economic, Smapt Power Saving<br>
+                        Electrical & Control Systems
+                    </p>
+                </div>
+                <div class="header-benefits__block">
+                    <img src="img/header-3.svg" alt=">Life Relation Care Image">
+                    <span>Life Relation Care</span>
+                    <p>
+                        Reliable Comfort Living Environment<br>
+                        Buildings & Systems for Life Environment
+                    </p>
+                </div>
             </div>
         </div>
-    </header> -->
+    </header>
 
     <!-- WHO WE ARE SECTION -->
 
@@ -475,6 +508,7 @@
         </div>
     </footer>
 
+    <!-- SCRIPTS -->
     <script
     src="https://code.jquery.com/jquery-3.4.1.js"
     integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
@@ -482,5 +516,7 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src='scripts/home.js'></script>
     <script src='scripts/slider.js'></script>
+    <script src='scripts/smooth-scroll.js'></script>
+    <script src='scripts/menu.js'></script>
 </body>
 </html>
