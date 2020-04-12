@@ -224,6 +224,9 @@
     .subscribe__banner{
         width: 90%;
     }
+    .top-bar__row-col__nav ul li a{
+        font-size: 3.4em;
+    }
 }
 
 /* MEDIA SCREEN LESS THAN 420 PX ! DOESN`T CHANGE */
@@ -231,6 +234,9 @@
 @media screen and (max-width: 420px){
     .subscribe__banner{
         width: 100%;
+    }
+    .top-bar__row-col__nav ul li a{
+        font-size: 3em;
     }
 }
 
