@@ -87,31 +87,31 @@
                     <form action="#">
 
                         <!-- START SECTION -->
-                        <div class="sign-up__start-section">
+                        <div class="sign-up__start-section sign-up__individual-section active">
                             <p class='sign-up__section-label'>
                                 1.Choose from corporate and individual 
                             </p>
                             <div class="sign-up__start-section__plan">
-                                <div class="sign-up__start-section__plan-block active">
+                                <div class="sign-up__start-section__plan-block individual active">
                                     <div>
                                         <img src="img/employee.svg" alt="Employee">
                                     </div>
                                     <p>Individual</p>
                                 </div>
-                                <div class="sign-up__start-section__plan-block">
+                                <div class="sign-up__start-section__plan-block corporate">
                                     <div>
                                         <img src="img/corporation.svg" alt="Employee">
                                     </div>
                                     <p>Corporate</p>
                                 </div>
                             </div>
-                            <button class="save-btn main-btn">
+                            <button class="save-btn main-btn choose-account-btn">
                                 Next
                             </button>
                         </div>
 
                         <!-- INDIVIDUAL SECTION STEP -->
-                        <div class="sign-up__individual-section">
+                        <div class="sign-up__individual-section section-step sign-up-individual">
                             <p class='sign-up__section-label'>
                                 2.Please fill out those fields to complete your account
                             </p>
@@ -129,17 +129,26 @@
                                 Email Address
                                 <input type="email" name='email' required>
                             </label>
-                            <div class="splited-col-1-5 splited-col">
-                                <div class="custom-theme-select">
-                                    <select>
-                                        <option style='background-image:url(img/flag.svg)' selected name="search-default">
-                                                                           
-                                        </option>
-                                        <option> <img src="img/flag.svg" alt="country code flag"></option>
-                                        <option> <img src="img/flag.svg" alt="country code flag"></option>
-                                        <option> <img src="img/flag.svg" alt="country code flag"></option>
-                                    </select>
+                            <div class="splited-col-1-5">
+                                <div class='custom-theme-select__container'>
+                                    Country Code
+                                    <div class="custom-theme-select">
+                                        <select>
+                                            <option selected name="search-default">
+                                                +44                      
+                                            </option>
+                                            <option>
+                                                +45                         
+                                            </option>
+                                            <option>
+                                                +46
+                                            </option>
+                                            <option>
+                                                +47
+                                            </option>
+                                        </select>
                                     </div>
+                                </div>
                                 <label>
                                     Phone Number
                                     <input type="number" name='tel-number' required>
@@ -159,13 +168,13 @@
                                 <input type="password" class='password-input' name='password' required>
                                 <p class='password-input__security-btn'>Show</p>
                             </label>
-                            <button class="save-btn main-btn">
+                            <button class="save-btn main-btn" onclick='redirectPay()'>
                                 Sign Up
                             </button>
                         </div>
 
                         <!-- CORPORATE SECTION STEP -->
-                        <div class="sign-up__individual-section">
+                        <div class="sign-up__individual-section section-step sign-up-corporate">
                             <p class='sign-up__section-label'>
                                 2.Please fill out those fields to complete your account
                             </p>
@@ -179,21 +188,24 @@
                                     <input type="text" name='company-website'>
                                 </label>
                             </div>
-                            <div class="splited-col-1-5 splited-col">
+                            <div class='custom-theme-select__container'>
+                                Country Code
                                 <div class="custom-theme-select">
                                     <select>
-                                        <option style='background-image:url(img/flag.svg)' selected name="search-default">
-                                                                           
+                                        <option selected name="search-default">
+                                            +44                      
                                         </option>
-                                        <option> <img src="img/flag.svg" alt="country code flag"></option>
-                                        <option> <img src="img/flag.svg" alt="country code flag"></option>
-                                        <option> <img src="img/flag.svg" alt="country code flag"></option>
+                                        <option>
+                                            +45                         
+                                        </option>
+                                        <option>
+                                            +46
+                                        </option>
+                                        <option>
+                                            +47
+                                        </option>
                                     </select>
-                                    </div>
-                                <label>
-                                    Phone Number
-                                    <input type="number" name='tel-number' required>
-                                </label>
+                                </div>
                             </div>
                             <label>
                                 Address
@@ -209,13 +221,14 @@
                                 <input type="password" class='password-input' name='password' required>
                                 <p class='password-input__security-btn'>Show</p>
                             </label>
-                            <button class="save-btn main-btn">
+                            <button class="save-btn main-btn" onclick='redirectPay()'>
                                 Sign Up
                             </button>
                             <div class="agree-policy">
                                 By joining, You agree to <a href='javascript:void(0)'>Terms conditions</a> and <a href='javascript:void(0)'>Privacy Policy</a>.
                             </div>
                             </div>
+
                     </form>
                     <p class="auth-copyright">
                         Copy Rights TWINSOFT 2020, All Rights Reserved

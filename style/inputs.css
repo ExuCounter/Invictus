@@ -7,11 +7,37 @@ input, textarea{
     margin-top: 0.3em;
 }
 
-form label{
+form label, .custom-theme-select__container{
     display: flex;
     flex-direction: column;
     font-size: 2em;
     margin-top: 1.5em;
     position: relative;
     font-family: 'Berlin Sans Regular', sans-serif;
+}
+
+.custom-theme-select__container .custom-theme-select{
+    padding-top: 0.4em;
+}
+
+.total-cost{
+    background-color: rgba(112, 112, 112, 0.24);
+    color: var(--main-text-color);
+    cursor: default;
+    outline: none;
+}
+
+.total-cost__label, .exp-date__label, .card-number__label{
+    position: relative;
+}
+
+.total-cost__label .ued, .exp-date__label img, .card-number__label img{
+    position: absolute;
+    right: 1em;
+    bottom: 1.35em;
+    max-width: 6em;
+    font-size: 0.8em;
+    font-weight: 500;
+    color: var(--main-text-color);
+
 }
