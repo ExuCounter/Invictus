@@ -24,7 +24,6 @@ chooseAccountBtn.onclick = function(){
         else if(choosedOption.classList.contains('corporate')){
             signUpFirstStep.classList.remove('active');
             signUpCorporate.classList.add('active');
-            alert(true);
         }
 }
 

@@ -163,7 +163,7 @@
                             </div>
                             <label class='total-cost__label'>
                                 Total Cost
-                                <input type="text" name='total-cost' class='total-cost' readonly value='2200'>
+                                <input type="text" class='total-cost' readonly value='2200'>
                                 <div class="ued">UED</div>
                             </label>
                             <button class="save-btn main-btn">
@@ -178,21 +178,21 @@
                             </p>
                             <label>
                                 Card Holder Name
-                                <input type="text" name='card-holder' placeholder="AHMED MAHMOUD" required>
+                                <input type="text" placeholder="AHMED MAHMOUD" required>
                             </label>
                             <label class='card-number__label'>
                                 Card Number
-                                <input type="text" name='card-holder' placeholder="XXXX-XXXX-XXXX-XXXX" required>
+                                <input type="text" placeholder="XXXX-XXXX-XXXX-XXXX" class='card-number-input' required>
                                 <img src='img/mastercard.svg'>
                             </label>
                             <label class='exp-date__label'>
                                 Expiration Date
-                                <input type="text" name='card-holder' placeholder="08/24" required>
+                                <input type="text" placeholder="08/24" class='card-number-date'  required>
                                 <img src='img/calendar.svg'>
                             </label>
                             <label>
                                 CVV Code
-                                <input type="password" class='password-input' placeholder='XXX' name='password' required>
+                                <input type="password" class='password-input cvv-code' placeholder='XXX' required>
                             </label>
                             <button class="save-btn main-btn">
                                 Save
@@ -213,6 +213,7 @@
     integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
     crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://unpkg.com/imask"></script>
     <script src='scripts/auth.js'></script>
     <script src='scripts/menu.js'></script>
     <script src='scripts/sign-up.js'></script>
