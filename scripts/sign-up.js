@@ -14,7 +14,8 @@ let signUpIndividual = document.querySelector('.sign-up-individual');
 let signUpCorporate = document.querySelector('.sign-up-corporate');
 let chooseAccountBtn = document.querySelector('.choose-account-btn');
 
-chooseAccountBtn.onclick = function(){
+chooseAccountBtn.onclick = function(e){
+    e.preventDefault();
     let choosedOption = signUpFirstStep.querySelector('.sign-up__start-section__plan-block.active');
 
         if(choosedOption.classList.contains('individual')){
