@@ -2,17 +2,15 @@ $('.services-slider').slick({
     slidesToShow: 3,
     slidesToScroll: 3,
     infinite: false,
-    // responsive: [
-    //     {
-    //       breakpoint: 1700,
-    //       settings: {
-    //         slidesToShow: 2,
-    //         slidesToScroll: 3,
-    //         infinite: true,
-    //         dots: true
-    //       }
-    //     }
-    //   ]
+    responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2
+          }
+        }
+      ]
 });
 
 $('.client-feedback__slider').slick({

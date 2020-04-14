@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0b16548-ea82-4249-aa2d-0622a623668d" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="c0b16548-ea82-4249-aa2d-0622a623668d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/training.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/training.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/media-queries.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/media-queries.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/top-bar.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/top-bar.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,11 +28,20 @@
   <component name="FavoritesManager">
     <favorites_list name="training" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1SPVgFW44PQIn60cxkf3LkWz819" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../node-express" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -28,18 +49,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="js.build_tools.gulp">
@@ -51,6 +61,18 @@
       <envs />
       <method v="2" />
     </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -79,10 +101,33 @@
       <workItem from="1582018456917" duration="5428000" />
       <workItem from="1582282817000" duration="1322000" />
       <workItem from="1582307689466" duration="103000" />
+      <workItem from="1586900540079" duration="1828000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="952" height="211" key="GridCell.Tab.0.bottom" timestamp="1586900774368">
+      <screen x="0" y="0" width="1600" height="852" />
+    </state>
+    <state width="952" height="211" key="GridCell.Tab.0.bottom/0.0.1600.852@0.0.1600.852" timestamp="1586900774368" />
+    <state width="952" height="211" key="GridCell.Tab.0.center" timestamp="1586900774367">
+      <screen x="0" y="0" width="1600" height="852" />
+    </state>
+    <state width="952" height="211" key="GridCell.Tab.0.center/0.0.1600.852@0.0.1600.852" timestamp="1586900774367" />
+    <state width="952" height="211" key="GridCell.Tab.0.left" timestamp="1586900774366">
+      <screen x="0" y="0" width="1600" height="852" />
+    </state>
+    <state width="952" height="211" key="GridCell.Tab.0.left/0.0.1600.852@0.0.1600.852" timestamp="1586900774366" />
+    <state width="952" height="211" key="GridCell.Tab.0.right" timestamp="1586900774368">
+      <screen x="0" y="0" width="1600" height="852" />
+    </state>
+    <state width="952" height="211" key="GridCell.Tab.0.right/0.0.1600.852@0.0.1600.852" timestamp="1586900774368" />
+    <state x="532" y="61" key="SettingsEditor" timestamp="1586900821156">
+      <screen x="0" y="0" width="1600" height="852" />
+    </state>
+    <state x="532" y="61" key="SettingsEditor/0.0.1600.852@0.0.1600.852" timestamp="1586900821156" />
   </component>
 </project>

@@ -1,3 +1,7 @@
+.top-bar{
+    font-size: 10px;
+}
+
 .top-bar__row-col__nav{
     display: flex;
     justify-content: center;
