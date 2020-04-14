@@ -312,6 +312,7 @@
     border: solid 0.1em rgba(112, 112, 112, 0.45);
     cursor: pointer;
     transition: 0.2s ease-in-out;
+    position: relative;
 }
 
 .how-it-works__row-block__img-container:hover{
@@ -335,8 +336,8 @@
     font-size: 5em;
     width: 1.2em;
     height: 1.2em;
-    left: 0.9em;
-    bottom: 1.848em;
+    left: 0.5em;
+    bottom: -0.60em;
     transform: rotate(45deg);
     transition: 0.2s ease-in-out;
 }
@@ -349,8 +350,8 @@
     font-size: 4.8em;
     z-index: 1;
     color: #FFF;
-    left: 1.275em;
-    bottom: 1.818em;
+    left: 0.875em;
+    bottom: -0.775em;
 }
 
 .how-it-works__row-block:nth-child(1) .how-it-works__row-block__img-container:before{

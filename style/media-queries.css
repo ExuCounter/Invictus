@@ -10,12 +10,6 @@
         font-size: 2.6em;
         margin: 1.75em 0em 1.05em 0.2em;
     }
-    .how-it-works__row-block__img-container:before{
-        bottom: 2.4em;
-    }
-    .how-it-works__row-block__img-container:after{
-        bottom: 2.4em;
-    }
     .subscribe__title{
         font-size: 7em;
     }
@@ -98,12 +92,6 @@
     .how-it-works__row-block p {
         font-size: 3.4em;
     }
-    .how-it-works__row-block__img-container:after{
-        left: 1.4em;
-    }
-    .how-it-works__row-block__img-container:before{
-        left: 1.8em;
-    }
     .services__row{
         justify-content: space-between;
     }
@@ -172,6 +160,9 @@
     .auth-copyright{
         font-size: 1.5em;
     }
+    .how-it-works__row-block__img-container img {
+        max-width: 9em;
+    }
 }
 
 /* MEDIA SCREEN LESS THAN 578 PX ! DOESN`T CHANGE IN BELOW QUERIES */
@@ -209,12 +200,6 @@
     }
     .how-it-works__row-block p {
         font-size: 2.9em;
-    }
-    .how-it-works__row-block__img-container:after{
-        bottom: 1.9em;
-    }
-    .how-it-works__row-block__img-container:before{
-        bottom: 1.9em;
     }
     .header-benefits{
         display: flex;
@@ -422,12 +407,6 @@
     }
     .client-feedback__slider .slick-prev{
         left: -2em;
-    }
-    .how-it-works__row-block__img-container:after{
-        left: 1.125em;
-    }
-    .how-it-works__row-block__img-container:before{
-        left: 1.5em;
     }
     section{
         padding: 7rem 0rem 5rem 0rem;
@@ -662,6 +641,9 @@
     .sign-up__individual-section .splited-col-1-5 .custom-theme-select{
         margin-top: 0;
     }
+    .how-it-works{
+        font-size: 6px;
+    }
 }
 
 /* MEDIA QUERIES FOR 375PX BETWEEN 420PX */
@@ -709,12 +691,6 @@
     }
     .how-it-works__row-block p {
         font-size: 2.5em;
-    }
-    .how-it-works__row-block__img-container:after{
-        bottom: 1.6em;
-    }
-    .how-it-works__row-block__img-container:before{
-        bottom: 1.6em;
     }
     .home-page .header-title{
         font-size: 5em;
