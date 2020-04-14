@@ -1,5 +1,13 @@
 /* --- */
 
+/* MEDIA SCREEN LESS THAN 1192 PX */
+
+@media screen and (max-width: 1192px){
+    .welcome-user{
+        font-size: 22px
+    }
+}
+
 /* MEDIA SCREEN LESS THAN 992 PX ! DOESN`T CHANGE IN BELOW QUERIES */
 
 @media screen and (max-width: 992px){
@@ -163,6 +171,10 @@
     .how-it-works__row-block__img-container img {
         max-width: 9em;
     }
+    .welcome-user{
+        font-size: 14.5px;
+    }
+
 }
 
 /* MEDIA SCREEN LESS THAN 578 PX ! DOESN`T CHANGE IN BELOW QUERIES */
@@ -495,6 +507,9 @@
     }
     .top-bar{
         font-size: 7px;
+    }
+    .welcome-user{
+        font-size: 10.5px
     }
 }
 
