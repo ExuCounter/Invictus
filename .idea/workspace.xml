@@ -6,7 +6,10 @@
       <change beforePath="$PROJECT_DIR$/pay.html" beforeDir="false" afterPath="$PROJECT_DIR$/pay.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sign-in.html" beforeDir="false" afterPath="$PROJECT_DIR$/sign-in.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sign-up.html" beforeDir="false" afterPath="$PROJECT_DIR$/sign-up.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/auth.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/auth.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/media-queries.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/media-queries.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/select.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/select.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +97,7 @@
       <workItem from="1582018456917" duration="5428000" />
       <workItem from="1582282817000" duration="1322000" />
       <workItem from="1582307689466" duration="103000" />
-      <workItem from="1586900540079" duration="4602000" />
+      <workItem from="1586900540079" duration="6249000" />
     </task>
     <servers />
   </component>

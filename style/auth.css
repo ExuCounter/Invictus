@@ -289,3 +289,12 @@
     font-family: "Roboto", sans-serif;
     padding-top: 0.8em;
 }
+
+.auth-main__row__right-col{
+    position: static;
+}
+
+.auth-copyright{
+    position: absolute;
+    bottom: 0;
+}
