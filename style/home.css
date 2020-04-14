@@ -42,6 +42,7 @@
 
 .masonry-gallery__col img{
     flex-grow: 1;
+    max-height: 70em;
 }
 
 .masonry-gallery__title{
