@@ -282,3 +282,10 @@
 .sign-up__individual-section.active{
     display: block;
 }
+
+.agree-policy{
+    text-align: center;
+    font-size: 2em;
+    font-family: "Roboto", sans-serif;
+    padding-top: 0.8em;
+}
