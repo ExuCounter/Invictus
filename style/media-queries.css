@@ -1023,8 +1023,7 @@
 
 @media screen and (max-width: 578px){
     .why-ids__info{
-        order: 1;
-        margin-top: 3rem;
+        margin-bottom: 3rem;
     }
     .why-ids__img-col img{
         max-width: 50%;
