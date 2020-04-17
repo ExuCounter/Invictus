@@ -84,3 +84,20 @@ body{
 .auth-main__row__left-col h1{
     max-width: 360px;
 }
+
+.contact-us__info-col a{
+    margin: 0 auto;
+}
+
+.contact-us__info-col div, .contact-us__form-col div{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    max-width: 520px;
+    padding: 0px 3rem;
+}
+
+.contact-us__info-col a{
+    margin-bottom: 2em;
+}

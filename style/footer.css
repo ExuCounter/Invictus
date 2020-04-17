@@ -1,5 +1,6 @@
 .footer{
     margin: 15em 0em 0em 0em;
+    overflow: hidden;
 }
 
 .contact-us-btn{
@@ -27,7 +28,7 @@
 
 .contact-us__info-col{
     background-image: url('../img/Group-76.jpg');
-    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     align-items: flex-start;
     flex-direction: column;
@@ -36,6 +37,15 @@
     width: 100%;
     padding: 20em 0em 17.5em 0em;
 
+}
+
+.contact-us__form-col{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contact-us__form-col form{
+    width: 100%;
 }
 
 .contact-us__info-col a{
