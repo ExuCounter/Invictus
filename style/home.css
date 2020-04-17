@@ -12,7 +12,7 @@
 
 .who-we-are__img-container img{
     position: absolute;
-    max-width: 47rem;
+    max-width: 30rem;
     height: auto;
     top: 0;
 }
@@ -90,7 +90,9 @@
 }
 
 .services-slider__block img{
-    width: 100%;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
 }
 
 .services-slider__block{
@@ -163,11 +165,11 @@
     font-size: 7em;
     padding-bottom: 0.66em;
     font-family: 'Caveat Regular', sans-serif;
-    color: var(--main-blue-color);
+    color: var(--main-light-blue-color);
 }
 
 .subscribe__title{
-    font-size: 10em;
+    font-size: 8em;
     text-transform: uppercase;
 }
 
@@ -191,7 +193,7 @@
     padding: 0.6em 0em;
     border: solid 0.2rem transparent;
     width: 100%;
-    font-size: 6em;
+    font-size: 5em;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     color: #FFF;
@@ -516,4 +518,9 @@
     left: unset;
     bottom: -8.5rem;
     right: -6.5rem;
+}
+
+.services-slider .slick-next:before{
+    left: -2em !important;
+    position: absolute !important;
 }

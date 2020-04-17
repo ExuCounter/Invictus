@@ -4,11 +4,18 @@ $('.services-slider').slick({
     infinite: false,
     responsive: [
         {
-          breakpoint: 768,
+          breakpoint: 620,
           settings: {
             slidesToShow: 2,
             slidesToScroll: 2
           }
+        },
+        {
+            breakpoint: 340,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
         }
       ]
 });

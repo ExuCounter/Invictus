@@ -3,13 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="c0b16548-ea82-4249-aa2d-0622a623668d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pay.html" beforeDir="false" afterPath="$PROJECT_DIR$/pay.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sign-in.html" beforeDir="false" afterPath="$PROJECT_DIR$/sign-in.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sign-up.html" beforeDir="false" afterPath="$PROJECT_DIR$/sign-up.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/auth.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/auth.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/base.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/media-queries.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/media-queries.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/select.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/select.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/text.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/text.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,9 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="training" />
@@ -30,7 +27,6 @@
   <component name="ProjectId" id="1SPVgFW44PQIn60cxkf3LkWz819" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -57,18 +53,6 @@
       <envs />
       <method v="2" />
     </configuration>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -97,33 +81,43 @@
       <workItem from="1582018456917" duration="5428000" />
       <workItem from="1582282817000" duration="1322000" />
       <workItem from="1582307689466" duration="103000" />
-      <workItem from="1586900540079" duration="6249000" />
+      <workItem from="1586900540079" duration="7511000" />
+      <workItem from="1586930061978" duration="24000" />
+      <workItem from="1587121642038" duration="2363000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="952" height="211" key="GridCell.Tab.0.bottom" timestamp="1586900774368">
+    <state x="656" y="184" width="424" height="484" key="FileChooserDialogImpl" timestamp="1586930082542">
       <screen x="0" y="0" width="1600" height="852" />
     </state>
-    <state width="952" height="211" key="GridCell.Tab.0.bottom/0.0.1600.852@0.0.1600.852" timestamp="1586900774368" />
-    <state width="952" height="211" key="GridCell.Tab.0.center" timestamp="1586900774367">
+    <state x="656" y="184" width="424" height="484" key="FileChooserDialogImpl/0.0.1600.852@0.0.1600.852" timestamp="1586930082542" />
+    <state width="952" height="211" key="GridCell.Tab.0.bottom" timestamp="1586927849040">
       <screen x="0" y="0" width="1600" height="852" />
     </state>
-    <state width="952" height="211" key="GridCell.Tab.0.center/0.0.1600.852@0.0.1600.852" timestamp="1586900774367" />
-    <state width="952" height="211" key="GridCell.Tab.0.left" timestamp="1586900774366">
+    <state width="952" height="211" key="GridCell.Tab.0.bottom/0.0.1600.852@0.0.1600.852" timestamp="1586927849040" />
+    <state width="952" height="211" key="GridCell.Tab.0.center" timestamp="1586927849039">
       <screen x="0" y="0" width="1600" height="852" />
     </state>
-    <state width="952" height="211" key="GridCell.Tab.0.left/0.0.1600.852@0.0.1600.852" timestamp="1586900774366" />
-    <state width="952" height="211" key="GridCell.Tab.0.right" timestamp="1586900774368">
+    <state width="952" height="211" key="GridCell.Tab.0.center/0.0.1600.852@0.0.1600.852" timestamp="1586927849039" />
+    <state width="952" height="211" key="GridCell.Tab.0.left" timestamp="1586927849037">
       <screen x="0" y="0" width="1600" height="852" />
     </state>
-    <state width="952" height="211" key="GridCell.Tab.0.right/0.0.1600.852@0.0.1600.852" timestamp="1586900774368" />
+    <state width="952" height="211" key="GridCell.Tab.0.left/0.0.1600.852@0.0.1600.852" timestamp="1586927849037" />
+    <state width="952" height="211" key="GridCell.Tab.0.right" timestamp="1586927849039">
+      <screen x="0" y="0" width="1600" height="852" />
+    </state>
+    <state width="952" height="211" key="GridCell.Tab.0.right/0.0.1600.852@0.0.1600.852" timestamp="1586927849039" />
     <state x="532" y="61" key="SettingsEditor" timestamp="1586900821156">
       <screen x="0" y="0" width="1600" height="852" />
     </state>
     <state x="532" y="61" key="SettingsEditor/0.0.1600.852@0.0.1600.852" timestamp="1586900821156" />
+    <state x="529" y="253" key="com.intellij.ide.util.TipDialog" timestamp="1586930063874">
+      <screen x="0" y="0" width="1600" height="852" />
+    </state>
+    <state x="529" y="253" key="com.intellij.ide.util.TipDialog/0.0.1600.852@0.0.1600.852" timestamp="1586930063874" />
   </component>
 </project>
