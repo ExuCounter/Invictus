@@ -849,7 +849,7 @@
 
 @media screen and (min-width: 300px) and (max-width: 340px){
     html{
-        font-size: 21.5%;
+        font-size: 27.5%;
     }
     .who-we-are__img-container img{
         max-width: 14em;
@@ -884,7 +884,7 @@
         bottom: -40px;
     }
     section{
-        padding: 6rem 0rem 8rem 0rem;
+        padding: 2rem 0rem 4rem 0rem;
     }
     .who-we-are__img-container {
         padding-bottom: 15rem !important;
@@ -942,6 +942,9 @@
     .section-step .select-selected{
         font-size: 1.45em;
         margin-bottom: 6px;
+    }
+    .why-ids__img-col img{
+        max-width: 60% !important;
     }
 }
 
@@ -1015,6 +1018,19 @@
 @media screen and (max-width: 768px){
     .services-slider .slick-next:before{
         left: 0 !important;
+    }
+}
+
+@media screen and (max-width: 578px){
+    .why-ids__info{
+        order: 1;
+        margin-top: 3rem;
+    }
+    .why-ids__img-col img{
+        max-width: 50%;
+        height: auto;
+        margin: 0 auto;
+        display: flex;
     }
 }
 

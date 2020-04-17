@@ -19,7 +19,7 @@ html{
 }
 
 section{
-    padding: 12rem 0rem 9rem 0rem;
+    padding: 7rem 0rem 4rem 0rem;
 }
 
 body{
@@ -100,4 +100,27 @@ body{
 
 .contact-us__info-col a{
     margin-bottom: 2em;
+}
+
+.why-ids{
+    position: relative;
+}
+
+.why-ids .section-title{
+    padding-bottom: 3rem !important;
+}
+
+.why-ids p{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    max-width: 600px;
+    font-weight: 400;
+}
+
+.why-ids div{
+    position: relative;
+}
+
+.why-ids img{
+    width: 100%;
 }
