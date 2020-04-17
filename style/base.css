@@ -75,3 +75,12 @@ body{
     background-color: var(--main-red-color) !important;
     border: solid 2px var(--main-red-color);
 }
+
+.auth-main__row__left-col{
+    display: flex;
+    justify-content: center;
+}
+
+.auth-main__row__left-col h1{
+    max-width: 360px;
+}

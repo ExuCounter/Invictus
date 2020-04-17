@@ -17,6 +17,10 @@
     top: 0;
 }
 
+.contact-us__info-col{
+    margin: 0 auto;
+}
+
 .who-we-are__img-container img:nth-child(1){
     left: 0;
 }
@@ -437,6 +441,7 @@
 
 .client-feedback__slider-block__user img{
     width: 12em;
+    height: auto;
 }
 
 .client-feedback__slider-block__user-info__name{

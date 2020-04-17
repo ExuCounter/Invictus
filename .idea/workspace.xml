@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="c0b16548-ea82-4249-aa2d-0622a623668d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/media-queries.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/media-queries.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -12,9 +16,6 @@
   </component>
   <component name="ComposerSettings">
     <execution />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="training" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -78,7 +79,8 @@
       <workItem from="1582307689466" duration="103000" />
       <workItem from="1586900540079" duration="7511000" />
       <workItem from="1586930061978" duration="24000" />
-      <workItem from="1587121642038" duration="2863000" />
+      <workItem from="1587121642038" duration="4250000" />
+      <workItem from="1587157390368" duration="1455000" />
     </task>
     <servers />
   </component>
@@ -86,10 +88,10 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="656" y="184" width="424" height="484" key="FileChooserDialogImpl" timestamp="1586930082542">
+    <state x="656" y="184" width="424" height="484" key="FileChooserDialogImpl" timestamp="1587130399413">
       <screen x="0" y="0" width="1600" height="852" />
     </state>
-    <state x="656" y="184" width="424" height="484" key="FileChooserDialogImpl/0.0.1600.852@0.0.1600.852" timestamp="1586930082542" />
+    <state x="656" y="184" width="424" height="484" key="FileChooserDialogImpl/0.0.1600.852@0.0.1600.852" timestamp="1587130399413" />
     <state width="952" height="211" key="GridCell.Tab.0.bottom" timestamp="1586927849040">
       <screen x="0" y="0" width="1600" height="852" />
     </state>

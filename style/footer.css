@@ -29,10 +29,11 @@
     background-image: url('../img/Group-76.jpg');
     background-repeat: no-repeat;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
+    width: 100%;
     padding: 20em 0em 17.5em 0em;
 
 }
