@@ -4,7 +4,7 @@
 
 @media screen and (max-width: 1192px){
     .welcome-user{
-        font-size: 22px
+        font-size: 2.2em;
     }
 }
 
@@ -48,6 +48,9 @@
         flex: 0 0 32%;
         max-width: 32%;
         margin-right: 9.5px;
+    }
+    .auth .top-bar__row-col__logo img{
+        max-width: 10em !important;
     }
 }
 
@@ -968,6 +971,11 @@
     }
 }
 
+@media screen and (max-width: 1400px){
+    .auth .top-bar__row-col__logo img{
+        max-width: 9em;
+    }
+}
 
 @media screen and (max-width: 1040px){
     .big-letters__row-block p {
@@ -981,6 +989,9 @@
     }
     .header-benefits__block{
         font-size: 6.5px;
+    }
+    .top-bar{
+        font-size: 7px;
     }
 }
 

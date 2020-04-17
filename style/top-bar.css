@@ -63,3 +63,7 @@
     color: var(--main-red-color);
     text-decoration: none;
 }
+
+.auth .top-bar__row-col__logo img{
+    max-width: 18em;
+}
