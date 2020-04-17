@@ -257,6 +257,9 @@
     .header-benefits__block img{
         max-width: 16em !important;
     }
+    .masonry-gallery__description{
+        font-size: 3rem;
+    }
 }
 
 /* MEDIA SCREEN LESS THAN 420 PX ! DOESN`T CHANGE */
@@ -772,6 +775,9 @@
     }
     section{
         padding: 6rem 0rem 4rem 0rem;
+    }
+    .masonry-gallery{
+        padding-top: 3rem;
     }
     .masonry-gallery__col img{
         max-width: 350px;
