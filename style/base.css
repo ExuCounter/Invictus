@@ -124,3 +124,7 @@ body{
 .why-ids img{
     width: 100%;
 }
+
+.auth{
+    overflow-x: hidden;
+}
