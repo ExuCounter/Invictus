@@ -1056,8 +1056,15 @@
     }
 }
 
-@media screen and (max-height: 450px){
+@media screen and (max-height: 720px){
     .auth-copyright{
-        position: relative;
+        position: relative !important;
+    }
+}
+
+
+@media screen and (max-width: 450px){
+    .pay-main .auth-copyright{
+        position: relative !important;
     }
 }
