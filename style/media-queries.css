@@ -1030,6 +1030,12 @@
     .services-slider .slick-next:before{
         left: 0 !important;
     }
+    .top-bar__row-col__logo img{
+        max-width: 10em;
+    }
+    .auth main{
+        padding: 12em 0em 0em;
+    }
 }
 
 @media screen and (max-width: 578px){
@@ -1042,16 +1048,24 @@
         margin: 0 auto;
         display: flex;
     }
+    .services-slider__block{
+        margin: 0 auto;
+        max-width: 55%;
+    }
 }
 
 @media screen and (max-width: 480px){
     .services-slider__block img{
-        max-width: 90%;
+        max-width: 100%;
+    }
+    .services-slider__block{
+        margin: 0 auto;
+        max-width: 60%;
     }
 }
 
 @media screen and (max-width: 340px){
-    .services-slider__block img{
+    .services-slider__block{
         max-width: 100%;
     }
 }
@@ -1067,4 +1081,14 @@
     .pay-main .auth-copyright{
         position: relative !important;
     }
+}
+
+@media screen and (min-width: 768px){
+    .top-bar{
+        position: fixed;
+        top: 0;
+        width: 100%;
+
+    }
+
 }

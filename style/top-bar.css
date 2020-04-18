@@ -1,6 +1,7 @@
 .top-bar{
     font-size: 9px;
     padding: 0rem 4rem;
+    transition: 0.1s ease-in-out;
 }
 
 .top-bar__row-col__nav{
@@ -35,7 +36,8 @@
 }
 
 .top-bar__row-col__logo img{
-    max-width: 10em;
+    max-width: 12em;
+    margin-left: 2rem;
 }
 
 .top-bar__row-col__auth{
@@ -68,4 +70,28 @@
 
 .auth .top-bar__row-col__logo img{
     max-width: 18em;
+}
+
+.top-bar.sticky{
+    background-color: #FFF;
+    z-index: 1;
+    box-shadow: 0px 0px 6px 0px #908585;
+}
+
+.top-bar.sticky .top-bar__row{
+    padding: 2em 0em;
+}
+
+.top-bar.sticky a{
+    color: red !important;
+}
+
+.qet-quote-btn{
+    color: var(--main-red-color);
+    font-size: 2.5em;
+    font-family: "Roboto", sans-serif;
+}
+
+.qet-quote-btn:hover{
+    color: var(--main-red-color);
 }
