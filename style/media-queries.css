@@ -805,14 +805,6 @@
         bottom: 22px !important;
         left: 10px !important;
     }
-    .how-it-works__row-block__img-container:after{
-        left: 1.9em;
-        bottom: 1.8em;
-    }
-    .how-it-works__row-block__img-container:before{
-        left: 2.35em;
-        bottom: 1.75em;
-    }
     .home-page .header-title{
         font-size: 4.8em;
     }
@@ -892,23 +884,8 @@
     .who-we-are__img-container {
         padding-bottom: 15rem !important;
     }
-    .client-feedback__slider .slick-next{
-        bottom: 21px !important;
-    }
-    .client-feedback__slider .slick-prev{
-        bottom: 21px !important;
-        left: 10px !important;
-    }
     .how-it-works__row-block p {
         font-size: 2.75em;
-    }
-    .how-it-works__row-block__img-container:after{
-        left: 1.6em;
-        bottom: 1.7em;
-    }
-    .how-it-works__row-block__img-container:before{
-        left: 2.0em;
-        bottom: 1.7em;
     }
     .home-page .header-title{
         font-size: 4.8em;
