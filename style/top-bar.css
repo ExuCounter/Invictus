@@ -1,5 +1,6 @@
 .top-bar{
     font-size: 9px;
+    padding: 0rem 4rem;
 }
 
 .top-bar__row-col__nav{
@@ -22,8 +23,9 @@
 
 .top-bar__row-col__nav ul li a{
     font-size: 2em;
-    color: var(--main-red-color);
     font-family: "Roboto", sans-serif;
+
+    color: var(--white);
 }
 
 .top-bar__row{
@@ -45,7 +47,7 @@
     font-size: 3em;
     font-family: "Roboto", sans-serif;
     font-weight: normal;
-    color: #248471;
+    color: var(--main-red-color);
     background-color: transparent;
     border: none;
     text-transform: uppercase;

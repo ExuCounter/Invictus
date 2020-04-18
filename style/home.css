@@ -60,11 +60,11 @@
     padding-bottom: 0.8em;
 }
 
-.masonry-gallery__col:nth-child(1) .masonry-gallery__title span{
+.masonry-gallery__col:nth-child(1) .masonry-gallery__title{
     color: var(--main-red-color);
 }
 
-.masonry-gallery__col:nth-child(2) .masonry-gallery__title span{
+.masonry-gallery__col:nth-child(2) .masonry-gallery__title{
     color: var(--main-yellow-color);
 }
 
@@ -72,7 +72,7 @@
     padding-top: 0.5em;
 }
 
-.masonry-gallery__col:nth-child(3) .masonry-gallery__title span{
+.masonry-gallery__col:nth-child(3) .masonry-gallery__title{
     color: var(--main-blue-color);
 }
 
@@ -86,8 +86,12 @@
     padding-bottom: 5em;
 }
 
+.services h1, .services h1 span{
+    color: var(--main-blue-color);
+}
+
 .services-slider__block-description{
-    color: var(--main-text-color);
+    color: var(--main-blue-color);
     font-size: 3.5rem;
     text-align: center;
     padding: 2.8rem;
