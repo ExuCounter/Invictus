@@ -171,7 +171,7 @@
 /* SUBSCRIBE SECTION */
 
 .subscribe__span{
-    font-size: 7em;
+    font-size: 6.39em;
     padding-bottom: 0.66em;
     font-family: 'Caveat Regular', sans-serif;
     color: var(--main-light-blue-color);
@@ -246,12 +246,12 @@
 }
 
 .big-letters__row-block:nth-child(2) span{
-    color: var(--main-blue-color);
+    color: var(--main-yellow-color);
     padding-left: 0.15em;
 }
 
 .big-letters__row-block:nth-child(3) span{
-    color: var(--main-yellow-color);
+    color: var(--main-green-color);
 }
 
 .services__row{
@@ -273,6 +273,7 @@
     text-transform: uppercase;
     border: none;
     cursor: default;
+    color: var(--main-blue-color);
 }
 
 .services__row div:nth-child(3), .services__row div:nth-child(7){

@@ -1013,6 +1013,16 @@
     .auth main{
         padding: 12em 0em 0em;
     }
+    .top-bar__row-col__auth{
+        flex-direction: row !important;
+        align-items: center;
+    }
+    .top-bar__row-col__auth a{
+        margin: 0px 1rem;
+    }
+    body{
+        overflow-x: hidden;
+    }
 }
 
 @media screen and (max-width: 578px){
@@ -1038,6 +1048,9 @@
     .services-slider__block{
         margin: 0 auto;
         max-width: 60%;
+    }
+    .top-bar__row-col__auth a{
+        font-size: 2em;
     }
 }
 

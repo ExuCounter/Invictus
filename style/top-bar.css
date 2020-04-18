@@ -85,6 +85,10 @@
 .top-bar.sticky a{
     color: red !important;
 }
+.top-bar.sticky img{
+    max-width: 10em;
+}
+
 
 .qet-quote-btn{
     color: var(--main-red-color);
