@@ -3,8 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="c0b16548-ea82-4249-aa2d-0622a623668d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/media-queries.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/media-queries.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/alain-pham-p-qvs-f-7-yodw-unsplash.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/alain-pham-p-qvs-f-7-yodw-unsplash.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/american-public-power-association-f-h-ld-xf-ur-dh-a-unsplash.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/american-public-power-association-f-h-ld-xf-ur-dh-a-unsplash.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/christopher-burns-wiu-3-w-99-t-ng-unsplash.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/christopher-burns-wiu-3-w-99-t-ng-unsplash.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/jeshoots-com-dp-libj-av-2-r-8-unsplash.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/jeshoots-com-dp-libj-av-2-r-8-unsplash.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +99,7 @@
       <workItem from="1587162212227" duration="2649000" />
       <workItem from="1587226156068" duration="3055000" />
       <workItem from="1587232451052" duration="7605000" />
-      <workItem from="1587230052852" duration="332000" />
+      <workItem from="1587230052852" duration="2226000" />
     </task>
     <servers />
   </component>
