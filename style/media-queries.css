@@ -147,7 +147,8 @@
         margin-bottom: 3em;
     }
     .top-bar__row-col__nav ul li a{
-        font-size: 4em;
+        font-size: 3em;
+        color: var(--main-red-color);
     }
     .top-bar{
         font-size: 155%;
@@ -236,7 +237,7 @@
         width: 90%;
     }
     .top-bar__row-col__nav ul li a{
-        font-size: 3.4em;
+        font-size: 2.4em;
     }
     .auth-main__row__left-col{
         flex-direction: column;
@@ -1043,11 +1044,11 @@
 
 @media screen and (max-width: 480px){
     .services-slider__block img{
-        max-width: 100%;
+        max-width: 70%;
     }
     .services-slider__block{
         margin: 0 auto;
-        max-width: 60%;
+        max-width: 100%;
     }
     .top-bar__row-col__auth a{
         font-size: 2em;

@@ -3,20 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="c0b16548-ea82-4249-aa2d-0622a623668d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sign-in.html" beforeDir="false" afterPath="$PROJECT_DIR$/sign-in.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sign-up.html" beforeDir="false" afterPath="$PROJECT_DIR$/sign-up.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/media-queries.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/media-queries.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/top-bar.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/top-bar.css" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution />
+    <execution>
+      <executable />
+    </execution>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,6 +38,18 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
     <configuration default="true" type="js.build_tools.gulp">
@@ -85,11 +96,23 @@
       <workItem from="1587162212227" duration="2649000" />
       <workItem from="1587226156068" duration="3055000" />
       <workItem from="1587232451052" duration="7605000" />
+      <workItem from="1587230052852" duration="332000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="656" y="184" width="424" height="484" key="FileChooserDialogImpl" timestamp="1587130399413">
