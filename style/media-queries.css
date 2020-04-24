@@ -235,6 +235,9 @@
         font-size: 3em;
         padding: 1em 3em;
     }
+    .right-step-img{
+        display: none;
+    }
 }
 
 /* MEDIA SCREEN LESS THAN 578 PX ! DOESN`T CHANGE IN BELOW QUERIES */
@@ -330,6 +333,9 @@
     }
     .subscribe-plans__col{
         width: 49%;
+    }
+    .save-btn__container{
+        max-width: 100%;
     }
 }
 
@@ -1097,6 +1103,9 @@
     body{
         overflow-x: hidden;
     }
+    .right-step-img__container{
+        display: none !important;
+    }
 }
 
 @media screen and (max-width: 578px){
@@ -1147,7 +1156,7 @@
     }
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 769px){
     .top-bar{
         position: fixed;
         top: 0;
