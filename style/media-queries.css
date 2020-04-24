@@ -325,6 +325,9 @@
         bottom: 0px;
         right: 0px;
     }
+    .days-left{
+        padding-left: 0;
+    }
 }
 
 /* MEDIA SCREEN LESS THAN 420 PX ! DOESN`T CHANGE */
