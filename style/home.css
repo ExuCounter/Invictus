@@ -535,3 +535,46 @@
     left: -2em !important;
     position: absolute !important;
 }
+
+/* SUBSCRIBE PLANS */
+
+.subscribe-plans__col img{
+    max-width: 11em;
+}
+
+.subscribe-plans__col{
+    display: flex;
+    padding-bottom: 4.5em;
+}
+
+.subscribe-plans__title{
+    font-size: 2.4em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    padding-top: 0.2em;
+}
+
+.subscribe-plans__info{
+    font-size: 2.8em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-top: auto;
+}
+
+.subscribe-plan__info-wrap{
+    margin-left: 2em;
+}
+
+.subscribe-plans{
+    margin-top: 10rem;
+}
+
+.subscribe-plans{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.subscribe-plans__col{
+    width: 33%;
+}

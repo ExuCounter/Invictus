@@ -328,6 +328,9 @@
     .days-left{
         padding-left: 1em;
     }
+    .subscribe-plans__col{
+        width: 49%;
+    }
 }
 
 /* MEDIA SCREEN LESS THAN 420 PX ! DOESN`T CHANGE */
@@ -338,6 +341,9 @@
     }
     .top-bar__row-col__nav ul li a{
         font-size: 3em;
+    }
+    .subscribe-plans__col{
+        width: 100%;
     }
 }
 
@@ -1149,4 +1155,10 @@
 
     }
 
+}
+
+@media screen and (min-width: 992px){
+    .subscribe-plans__col{
+        padding-left: 9em;
+    }
 }
