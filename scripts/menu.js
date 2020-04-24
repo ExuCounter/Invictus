@@ -25,12 +25,22 @@ function getBodyScrollTop()
 }
 
 window.onscroll = function(){
-    if(getBodyScrollTop() > 0 && document.documentElement.offsetWidth > 768){
-        document.querySelector('.top-bar').classList.add('sticky');
-        document.querySelector('.top-bar__row-col__logo img').src = './img/logo.svg';
+    if(document.body.classList.contains('home-page')){
+        if(getBodyScrollTop() > 0 && document.documentElement.offsetWidth > 768){
+            document.querySelector('.top-bar').classList.add('sticky');
+            document.querySelector('.top-bar__row-col__logo img').src = './img/logo.svg';
+        }
+        else{
+            document.querySelector('.top-bar').classList.remove('sticky');
+            document.querySelector('.top-bar__row-col__logo img').src = './img/logo-white.svg';
+        }
     }
     else{
-        document.querySelector('.top-bar').classList.remove('sticky');
-        document.querySelector('.top-bar__row-col__logo img').src = './img/logo-white.svg';
+        if(getBodyScrollTop() > 0 && document.documentElement.offsetWidth > 768){
+            document.querySelector('.top-bar').classList.add('sticky');
+        }
+        else{
+            document.querySelector('.top-bar').classList.remove('sticky');
+       }
     }
 }

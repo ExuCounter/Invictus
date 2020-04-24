@@ -6,6 +6,9 @@
     .welcome-user{
         font-size: 2.2em;
     }
+    .cancel-subscription-btn{
+        font-size: 0.9em;
+    }
 }
 
 /* MEDIA SCREEN LESS THAN 992 PX ! DOESN`T CHANGE IN BELOW QUERIES */
@@ -51,6 +54,22 @@
     }
     .auth .top-bar__row-col__logo img{
         max-width: 10em !important;
+    }
+    .user-top-bar__wrap{
+        font-size: 80%;
+    }
+    .user .main{
+        font-size: 80%;
+    }
+    .user-main__right-col{
+        padding-right: 4em;
+    }
+    .user-top-bar img{
+        max-width: 35em;
+        height: auto;
+    }
+    .update-profile-btn{
+        font-size: 3em;
     }
 }
 
@@ -181,6 +200,41 @@
     .auth-main{
         font-size: 5px;
     }
+    .user .user-top-bar{
+        margin-top: 4em;
+    }
+    .user .main .row{
+        margin-right: 0;
+    }
+    .user .main .container{
+        padding: auto;
+    }
+    .user-main-left-col, .user-main-right-col{
+        padding-right: 0;
+    }
+    .user-main-right-col{
+        margin: 6em 0em 4em 0em;
+    }
+    .user-top-bar__wrap{
+        flex-direction: column;
+    }
+    .update-profile-btn__col{
+        margin-left: unset;
+        padding-top: 4em;
+    }
+    .user .user-top-bar .container{
+        padding: 0em 3em;
+    }
+    .user .main .container{
+        padding: 0rem 3rem;
+    }
+    .user-top-bar img{
+        max-width: 30em;
+    }
+    .update-profile-btn{
+        font-size: 3em;
+        padding: 1em 3em;
+    }
 }
 
 /* MEDIA SCREEN LESS THAN 578 PX ! DOESN`T CHANGE IN BELOW QUERIES */
@@ -263,6 +317,13 @@
     }
     .masonry-gallery__description{
         font-size: 3rem;
+    }
+    .user-top-bar img{
+        max-width: 25em;
+    }
+    .avatar-add-btn{
+        bottom: 0px;
+        right: 0px;
     }
 }
 
@@ -611,6 +672,9 @@
     }
     .section-step .select-selected{
         font-size: 1.5em;
+    }
+    .user-main-right-col{
+        padding-right: 0px;
     }
 }
 
