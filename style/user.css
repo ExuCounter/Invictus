@@ -247,3 +247,8 @@
 .user-main__right-col{
     padding-right: 9rem;
 }
+
+.user-top-bar img{
+    max-width: 24em;
+    height: auto;
+}

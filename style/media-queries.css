@@ -235,9 +235,6 @@
         font-size: 3em;
         padding: 1em 3em;
     }
-    .right-step-img{
-        display: none;
-    }
 }
 
 /* MEDIA SCREEN LESS THAN 578 PX ! DOESN`T CHANGE IN BELOW QUERIES */
@@ -1103,8 +1100,32 @@
     body{
         overflow-x: hidden;
     }
-    .right-step-img__container{
-        display: none !important;
+    .right-step-img__container img{
+        order: -1;
+    }
+    .subscribe-plans__col img{
+        max-width: 14em;
+    }
+    .subscribe-plans__title{
+        font-size: 2.6em
+    }
+    .subscribe-plans__info{
+        font-size: 3em;
+    }
+    .sign-up__individual-section{
+        flex-direction: column !important;
+    }
+
+    .sign-up__individual-section .right-step-img__container{
+        order: -1;
+        margin-right: auto !important;
+        width: auto !important;
+    }
+    .right-step-img{
+        max-width: 145px;
+    }
+    .sign-up__individual-section > div{
+        margin-top: auto;
     }
 }
 
@@ -1121,6 +1142,9 @@
     .services-slider__block{
         margin: 0 auto;
         max-width: 55%;
+    }
+    .right-step-img{
+        max-width: 120px;
     }
 }
 
@@ -1153,6 +1177,15 @@
 @media screen and (max-width: 450px){
     .pay-main .auth-copyright{
         position: relative !important;
+    }
+    .subscribe-plans__col img{
+        max-width: 19em;
+    }
+    .subscribe-plans__title{
+        font-size: 3.8em
+    }
+    .subscribe-plans__info{
+        font-size: 4.2em;
     }
 }
 
